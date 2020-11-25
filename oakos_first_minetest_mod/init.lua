@@ -1,6 +1,6 @@
-minetest.register_node("oakos_first_mod:oakoblock", {
+minetest.register_node("oakos_first_minetest_mod:oakoblock", {
     description = "OAKO's most expensive block in Minetest Universe!",
-    tiles = {"oakos_first_mod_oakoblock.png"},
+    tiles = {"oakoblock.png"},
     groups = {oddly_breakable_by_hand = 2},
 })
 
