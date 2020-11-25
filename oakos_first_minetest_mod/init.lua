@@ -14,7 +14,11 @@ minetest.register_node("oakos_first_mod:oakoblock", {
 
 minetest.register_craft({
     output = "oakos_first_minetest_mod:oakoblock",
-    recipe = {{"default:dirt", "default:dirt"}}
+    recipe = {
+        {"default:goldblock", "default:diamondblock", "default:goldblock"}
+        {"default:diamondblock", "default:goldblock", "default:diamondblock"}
+        {"default:goldblock", "default:diamondblock", "default:goldblock"}
+    }
 })
 
 --This code is from the Travelnet Elevators as an example of how crafting recipies work.
