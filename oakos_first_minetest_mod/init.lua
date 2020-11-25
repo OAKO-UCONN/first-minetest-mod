@@ -15,8 +15,8 @@ minetest.register_node("oakos_first_mod:oakoblock", {
 minetest.register_craft({
     output = "oakos_first_minetest_mod:oakoblock",
     recipe = {
-        {"default:goldblock", "default:diamondblock", "default:goldblock"}
-        {"default:diamondblock", "default:goldblock", "default:diamondblock"}
+        {"default:goldblock", "default:diamondblock", "default:goldblock"},
+        {"default:diamondblock", "default:goldblock", "default:diamondblock"},
         {"default:goldblock", "default:diamondblock", "default:goldblock"}
     }
 })
